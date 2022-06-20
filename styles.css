@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    width: 719px;
+    height: 720px;
+    display: grid;
+}
+
+.square {
+    /* width: 180px; */
+    /* height: 360px; */
+    border: 1px solid blue;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+
+.square:hover {
+    background-color: black;
+}
