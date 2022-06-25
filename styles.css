@@ -5,8 +5,8 @@
 
 .container {
     margin: auto;
-    width: 719px;
-    height: 720px;
+    width: 539px;
+    height: 539px;
     display: grid;
 }
 
@@ -18,6 +18,42 @@
     margin-top: -1px;
 }
 
-.square:hover {
-    background-color: black;
+.buttonContainer {
+    width: 539px;
+    display: flex;
+    margin: auto;
+    padding: 25px;
+    padding-bottom: 5px;
+    justify-content: space-between;
+}
+
+.bottomContents {
+    width: 539px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 32px;
+}
+
+.bottomContents > p {
+    text-align: center;
+}
+
+.creator {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hover {
+    background-color: blue;
+    color: white;
 }
